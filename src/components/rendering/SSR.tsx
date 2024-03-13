@@ -19,7 +19,7 @@ const SSR = async () => {
 				<div className="flex gap-8">
 					{/* 유저 기본정보 */}
 					<div>
-						<Image
+						<img
 							src={user.picture.large}
 							alt={user.name.first}
 							width={200}

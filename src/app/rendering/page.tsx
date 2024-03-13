@@ -10,7 +10,7 @@ const RenderingTestPage = () => {
 	return (
 		<div>
 			<h1>4가지 렌더링 방식을 테스트해보자-!</h1>
-			<SSR />
+			<ISR />
 			{/* SSG(static), ISR(일정주기마다 갱신), SSR(Server Side.요청마다 실시간 갱신),    CSR(Client Side.기존react방식.요청마다실시간갱신.빌드타임에초기생성X) */}
 		</div>
 	);

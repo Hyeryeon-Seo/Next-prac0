@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import QueryProvider from "./provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,8 +29,10 @@ export default function RootLayout({
 					<Link href="/blog">Blog</Link>
 					<Link href="/test">Test</Link>
 					<Link href="/rendering">Rendering_test</Link>
+					<Link href="/todos">To-Dos</Link>
 				</nav>
-				{children}
+				{/*react-query 사용을 위해 provider로 감싸줄 것 (컴포넌트로 children 넘겨서)*/}
+				<QueryProvider>{children}</QueryProvider>
 			</body>
 		</html>
 	);

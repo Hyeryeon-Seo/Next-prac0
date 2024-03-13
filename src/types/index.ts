@@ -55,3 +55,17 @@ export type RandomUser = {
 	nat: string;
 };
 // 위 RandomUser 타입은, api data에 따라 만든 것임. 즉 가져올 데이터에 써줄 타입임
+
+export interface Todo {
+	// type과 달리 interface는 Todo { ..} 로 씀 = 안 붙음
+	id: string;
+	title: string;
+	contents: string;
+	isDone: boolean;
+}
+
+export interface NewTodo {
+	// 새로 추가 시 newTodo 에 대한 타입 (title, contents만 필요)
+	title: string;
+	contents: string;
+}

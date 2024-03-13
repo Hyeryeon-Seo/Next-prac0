@@ -4,10 +4,8 @@ import Image from "next/image";
 import CustomButton from "../components/Button";
 import Counter from "../components/Counter";
 export default function Home() {
-	console.log(`여기는 Home 컴포넌트.`);
-
 	const os = require("os");
-	console.log("os.hostname() : ", os.hostname()); // server : 내 컴명    client : localhost(브라우저)
+	// console.log("os.hostname() : ", os.hostname()); // server : 내 컴명    client : localhost(브라우저)
 
 	// * 서버 컴포넌트라면 콘솔은 로컬 node환경(터미널)에서 볼 수 있어.
 	// (근데 해당 컴포넌트를 실행시켜야해. 즉 localhost:3000/으로 들어가거나 새로고침해야 컴파일링되면서 터미널에도 뜬다!)
