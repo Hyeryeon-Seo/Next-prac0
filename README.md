@@ -20,6 +20,8 @@ First, run the development server:
 npm run dev
 
 npm run build / npm start
+
+npm run serve : json-server 실행
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
