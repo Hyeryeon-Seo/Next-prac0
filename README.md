@@ -1,8 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-### This project is based on the NBCamp first lecture about Next.js (24.3.11)
-
-### to practice App Router and four Rendering Patterns (SSG, ISR, SSR, CSR) with a little bit of Tailwind CSS.
+**This project is based on the `NBCamp` first lecture about `Next.js` (24.3.11) </br>
+to practice `App Router`, four `Rendering Patterns (SSG, ISR, SSR, CSR)`, and `Route Handler` with a little bit of `Tailwind CSS`.**
 
 ## Getting Started
 
